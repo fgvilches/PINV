@@ -1,7 +1,5 @@
 #Funciones
-
 def readfile(nombrearchivo,extension):
-    #archivos a leer deben estar en la misma carpeta
     archivo = open(nombrearchivo + "." + extension, "r")
     lineas = archivo.readlines()
     archivo.close()
@@ -23,5 +21,8 @@ def writefile(nombrearchivo,extension,line,posicion):
 def choiceExtractor(text):
     choices = []
     for line in text:
-        choices.append((text[line]).upper(),str(text[line]))
+        new_line = line.replace("\n","")
+        aux_line = [str(new_line),str(new_line)]
+        aux_tuple = tuple(aux_line)
+        choices.append(aux_tuple)
     return choices

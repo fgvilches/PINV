@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f61c66-2523-4f54-bec9-fc77035f9a1a" name="Default Changelist" comment="" />
+    <list default="true" id="b2f61c66-2523-4f54-bec9-fc77035f9a1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/reqs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/clasificaciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/sububicaciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/ubicaciones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XRq6BgMd4QjYqD5HX6M21UNWRn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\Inv\src" />
       <recent name="D:\Github\Inv\src\djangoapp" />
     </key>
   </component>
@@ -33,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581019077341</updated>
-      <workItem from="1581019081012" duration="713000" />
+      <workItem from="1581019081012" duration="11657000" />
     </task>
     <servers />
   </component>
@@ -41,6 +67,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1358" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581032760854">
+      <screen x="1228" y="0" width="757" height="1024" />
+    </state>
+    <state x="1358" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581032760854" />
     <state x="1228" y="156" key="SettingsEditor" timestamp="1581019574567">
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
@@ -49,5 +79,14 @@
       <screen x="0" y="0" width="1228" height="690" />
     </state>
     <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581019104094" />
+    <state x="1222" y="273" width="771" height="486" key="dock-window-1" timestamp="1581032640243">
+      <screen x="1228" y="0" width="757" height="1024" />
+    </state>
+    <state x="1228" y="33" width="771" height="486" maximized="true" key="dock-window-1/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581030091132" />
+    <state x="1222" y="273" width="771" height="486" key="dock-window-1/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581032640243" />
+    <state x="277" y="11" width="672" height="678" key="search.everywhere.popup" timestamp="1581029647988">
+      <screen x="0" y="0" width="1228" height="690" />
+    </state>
+    <state x="277" y="11" width="672" height="678" key="search.everywhere.popup/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581029647988" />
   </component>
 </project>

@@ -1,0 +1,3 @@
+*Django
+*virtualenv
+*django-multiselectfield
