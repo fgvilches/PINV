@@ -7,7 +7,7 @@ from .forms import ProductoForm
 
 
 class ProductoAdmin(admin.ModelAdmin):
-    list_display = ["Nombre", "Codigo_Propio","Clasificacion"]
+    list_display = ["Nombre", "Codigo_Propio","Clasificacion","fecha_de_compra","timestamp"]
     form = ProductoForm
     list_filter = ['Nombre', 'Codigo_Propio']
     search_fields = ['Nombre', 'Codigo_Propio']

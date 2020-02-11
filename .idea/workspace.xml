@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f61c66-2523-4f54-bec9-fc77035f9a1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/djangoapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/djangoapp/reqs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/static/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/djangoapp/templates/navbar_adm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/clasificaciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/sububicaciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/cat/ubicaciones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/reqs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/reqs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +44,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/djangoapp/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\Inv\src\djangoapp\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\Inv\src\djangoapp\templates" />
       <recent name="D:\Github\Inv\src" />
       <recent name="D:\Github\Inv\src\djangoapp" />
     </key>
@@ -60,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581019077341</updated>
       <workItem from="1581019081012" duration="11657000" />
+      <workItem from="1581362567228" duration="20147000" />
     </task>
     <servers />
   </component>
@@ -75,18 +84,20 @@
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
     <state x="1228" y="156" key="SettingsEditor/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581019574567" />
-    <state x="310" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1581019104094">
+    <state x="310" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1581362579502">
       <screen x="0" y="0" width="1228" height="690" />
     </state>
     <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581019104094" />
+    <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.40.819.984@0.0.1228.690" timestamp="1581362579502" />
     <state x="1222" y="273" width="771" height="486" key="dock-window-1" timestamp="1581032640243">
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
     <state x="1228" y="33" width="771" height="486" maximized="true" key="dock-window-1/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581030091132" />
     <state x="1222" y="273" width="771" height="486" key="dock-window-1/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581032640243" />
-    <state x="277" y="11" width="672" height="678" key="search.everywhere.popup" timestamp="1581029647988">
-      <screen x="0" y="0" width="1228" height="690" />
+    <state x="1197" y="388" width="670" height="967" key="search.everywhere.popup" timestamp="1581382040573">
+      <screen x="1228" y="40" width="819" height="984" />
     </state>
     <state x="277" y="11" width="672" height="678" key="search.everywhere.popup/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581029647988" />
+    <state x="1197" y="388" width="670" height="967" key="search.everywhere.popup/0.0.1228.690/1228.40.819.984@1228.40.819.984" timestamp="1581382040573" />
   </component>
 </project>

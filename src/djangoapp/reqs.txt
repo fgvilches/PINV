@@ -1,3 +1,4 @@
 *Django
 *virtualenv
 *django-multiselectfield
+*django-crispy-forms

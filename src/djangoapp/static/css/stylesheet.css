@@ -1,0 +1,24 @@
+body {
+}
+
+.title {
+    text-align: center;
+}
+
+/*Color, align and shadow the table*/
+table{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 12px 12px 40px 3px #b0ffd4;
+    font-size: 15px;
+}
+/*Make alternating colors for the table rows*/
+table tr:nth-child(odd){
+    background: #a4fccd
+}
+
+table tr:nth-child(even){
+    background: #85c7a3
+
+}
