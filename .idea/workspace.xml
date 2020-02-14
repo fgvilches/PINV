@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2f61c66-2523-4f54-bec9-fc77035f9a1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <updated>1581019077341</updated>
       <workItem from="1581019081012" duration="11657000" />
       <workItem from="1581362567228" duration="20147000" />
-      <workItem from="1581622915323" duration="2766000" />
+      <workItem from="1581622915323" duration="4390000" />
     </task>
     <servers />
   </component>
