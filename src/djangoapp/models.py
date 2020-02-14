@@ -35,7 +35,18 @@ class Producto(models.Model):
     Codigo_Propio = models.CharField(max_length=30, blank=True)
     Codigo_de_barras = models.CharField(max_length=30, blank=True)
     Factura_asociada = models.CharField(max_length=30, blank=True)
-    Maquinaria = models.ForeignKey(Maquinarias, blank=True, null=True, on_delete=models.CASCADE)
+    #Ciclo para extraer maquinarias actualizadas (se hizo de este modo para facilitar la seleccion)
+    newmaqs = []
+    for instance in Maquinarias.objects.all():
+        aux_line = [instance.__str__() , instance.__str__()]
+        aux_tuple = tuple(aux_line)
+        newmaqs.append(aux_tuple)
+    Maquinaria = MultiSelectField(
+        choices = newmaqs,
+        max_choices=100,
+        max_length=100,
+        blank=True,
+    )
     Clasificacion = models.ForeignKey(Clasificaciones, blank=True, null=True, on_delete=models.CASCADE)
     Cantidad_de_producto = models.CharField(max_length=5)
     Cantidad_de_subproducto = models.CharField(max_length=5, blank=True)

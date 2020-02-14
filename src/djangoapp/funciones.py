@@ -18,11 +18,10 @@ def writefile(nombrearchivo,extension,line,posicion):
     else:
         return False
 
-def choiceExtractor(text):
+def choiceExtractor(lista):
     choices = []
-    for line in text:
-        new_line = line.replace("\n","")
-        aux_line = [str(new_line),str(new_line)]
+    for line in lista:
+        aux_line = [line,line]
         aux_tuple = tuple(aux_line)
         choices.append(aux_tuple)
     return choices
