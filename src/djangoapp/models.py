@@ -3,6 +3,14 @@ from djangoapp.funciones import *
 from multiselectfield import MultiSelectField
 from datetime import datetime, date
 # Create your models here.
+
+#Se define clase clasificaciones para poder actualizarlas sin uso de archivos externos
+class Clasificaciones(models.Model):
+    Clasificacion = models.CharField(max_length = 30, blank=True)
+
+    def __str__(self):
+        return self.Clasificacion
+#Se dfine clase producto para mejor estructura
 class Producto(models.Model):
     Nombre = models.CharField(max_length=30, blank=True,)
     Codigo_Propio = models.CharField(
@@ -24,12 +32,7 @@ class Producto(models.Model):
         max_length=100,
         blank=True,
     )
-    Clasfs = choiceExtractor(readfile("clasificaciones","txt"))
-    Clasificacion = models.CharField(
-        max_length = 15,
-        choices = Clasfs,
-        default = "NINGUNA",
-    )
+    Clasificacion = models.ForeignKey(Clasificaciones, blank=True, null=True,on_delete=models.CASCADE)
     Cantidad_de_producto = models.CharField(max_length=5)
     Cantidad_de_subproducto = models.CharField(
         max_length=5,
