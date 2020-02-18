@@ -54,5 +54,6 @@ class Producto(models.Model):
     SubUbicacion = models.ForeignKey(SubUbicaciones, blank=True, null=True, on_delete=models.CASCADE)
     fecha_de_compra = models.DateField("Fecha de Compra(MM/DD/AAAA)",auto_now_add=False, auto_now=False, blank=True, null=True)
     timestamp = models.DateField(auto_now_add=True, auto_now=False, blank=True)
+    exportar = models.BooleanField(default=False)
     def __str__(self):
         return self.Nombre

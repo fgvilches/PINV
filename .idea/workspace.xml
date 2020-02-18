@@ -4,9 +4,9 @@
     <list default="true" id="b2f61c66-2523-4f54-bec9-fc77035f9a1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
       <workItem from="1581019081012" duration="11657000" />
       <workItem from="1581362567228" duration="20147000" />
       <workItem from="1581622915323" duration="11269000" />
+      <workItem from="1581975242891" duration="7137000" />
     </task>
     <servers />
   </component>
@@ -76,12 +77,12 @@
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
     <state x="1228" y="156" key="SettingsEditor/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581019574567" />
-    <state x="1379" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1581622937205">
-      <screen x="1228" y="0" width="757" height="1024" />
+    <state x="310" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1581975327538">
+      <screen x="0" y="0" width="1228" height="690" />
     </state>
     <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581019104094" />
     <state x="1379" y="252" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581622937205" />
-    <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.40.819.984@0.0.1228.690" timestamp="1581362579502" />
+    <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.40.819.984@0.0.1228.690" timestamp="1581975327538" />
     <state x="1222" y="273" width="771" height="486" key="dock-window-1" timestamp="1581032640243">
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
