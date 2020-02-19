@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>Fixed top navbar example · Bootstrap</title>
+    <title>Transportes Araya - PINV - Inventario</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
 
@@ -44,12 +44,19 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
-    <link href="{% static 'css/navbar-top-fixed.css' %}" rel="stylesheet">
+    <link href="{% static 'css/navbar-top-fixed.css' %}" rel="stylesheet">s
   </head>
   <body>
 {% include 'navbar.html'%}
 <main role="main" class="container">
   <div class="jumbotron">
+    {% if messages %}
+            <ul class="messages">
+                   {% for message in messages %}
+                         <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                   {% endfor %}
+           </ul>
+    {% endif %}
     <<h1 class="title">{{title}}</h1>
     <form method="post" action="">
        {% csrf_token %}

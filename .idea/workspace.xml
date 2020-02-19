@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/djangoapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/static/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/djangoapp/templates/inventario.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/templates/inventario.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/djangoapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/djangoapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/djangoapp/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -62,6 +65,9 @@
       <workItem from="1581362567228" duration="20147000" />
       <workItem from="1581622915323" duration="11269000" />
       <workItem from="1581975242891" duration="7137000" />
+      <workItem from="1582054612644" duration="4817000" />
+      <workItem from="1582061202220" duration="5563000" />
+      <workItem from="1582136465413" duration="8120000" />
     </task>
     <servers />
   </component>
@@ -77,12 +83,13 @@
       <screen x="1228" y="0" width="757" height="1024" />
     </state>
     <state x="1228" y="156" key="SettingsEditor/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581019574567" />
-    <state x="310" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1581975327538">
-      <screen x="0" y="0" width="1228" height="690" />
+    <state x="1435" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582136882030">
+      <screen x="1228" y="40" width="819" height="984" />
     </state>
     <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@0.0.1228.690" timestamp="1581019104094" />
     <state x="1379" y="252" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.0.757.1024@1228.0.757.1024" timestamp="1581622937205" />
     <state x="310" y="170" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.40.819.984@0.0.1228.690" timestamp="1581975327538" />
+    <state x="1435" y="282" key="com.intellij.ide.util.TipDialog/0.0.1228.690/1228.40.819.984@1228.40.819.984" timestamp="1582136882030" />
     <state x="1222" y="273" width="771" height="486" key="dock-window-1" timestamp="1581032640243">
       <screen x="1228" y="0" width="757" height="1024" />
     </state>

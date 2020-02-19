@@ -36,4 +36,5 @@ class ProductoForm(forms.ModelForm):
 class ProductoSearchForm(forms.ModelForm):
     class Meta:
         model = Producto
-        fields = ['Nombre', 'Codigo_de_barras', 'Ubicacion', 'Factura_asociada', 'exportar']
+        #add ubicacion
+        fields = ['Nombre', 'Codigo_de_barras','Factura_asociada', 'exportar']
