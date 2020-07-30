@@ -1,0 +1,5 @@
+virtualenv
+Django
+django-multiselectfield
+django-crispy-forms
+django-registration-redux

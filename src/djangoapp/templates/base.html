@@ -1,5 +1,4 @@
 {% load static %}
-{% load crispy_forms_tags %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>Transportes Araya - PINV - Inventario</title>
+    <title>Transportes Araya - PINV </title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/navbar-fixed/">
 
@@ -44,65 +43,22 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="{% static 'css/stylesheet.css' %}" rel="stylesheet">
-    <link href="{% static 'css/navbar-top-fixed.css' %}" rel="stylesheet">s
+    <link href="{% static 'css/navbar-top-fixed.css' %}" rel="stylesheet">
   </head>
   <body>
 {% include 'navbar.html'%}
 <main role="main" class="container">
   <div class="jumbotron">
-  {% if user.is_authenticated %}
-    {% if messages %}
-            <ul class="messages">
-                   {% for message in messages %}
-                         <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-                   {% endfor %}
-           </ul>
-    {% endif %}
-    <<h1 class="title">{{title}}</h1>
-    <div class="flt-search">
-        <form method="post" action="">
-           {% csrf_token %}
-           {{form|crispy}}
-           <input class="btn btn-primary" type="submit" value="Search" />
-        </form>
-    </div>
-      <div class="col-sm-12" style="overflow-x: auto;">
-          <table>
-              <tr>
-                 <th>#</th>
-                 <th>NOMBRE</th>
-                 <th>CODIGO</th>
-                 <th>CODIGO DE BARRAS</th>
-                 <th>MAQUINARIA</th>
-                 <th>UBICACION</th>
-                 <th>CLASIFICACION</th>
-                 <th>CANT P</th>
-                 <th>CANT SUB P</th>
-                 <th>FACTURA</th>
-              </tr>
-              {% for instance in queryset %}
-              <tr>
-                 <td>{{forloop.counter}}</td>
-                 <td><a href="{% url 'edit' id=instance.id %}" data-toggle="tooltip" title="Editar este producto"> {{instance.Nombre}}</td>
-                 <td>{{instance.Codigo_Propio}}</td>
-                 <td>{{instance.Codigo_de_barras}}</td>
-                 <td>{{instance.Maquinaria}}</td>
-                 <td>{{instance.Ubicacion}}</td>
-                 <td>{{instance.Clasificacion}}</td>
-                 <td>{{instance.Cantidad_de_producto}}</td>
-                 <td>{{instance.Cantidad_de_subproducto}}</td>
-                 <td>{{instance.Factura_asociada}}</td>
-                 <!--<td><a href="{% url 'delete' id=instance.id %}"</a>Borrar</td> -->
+    <h1 class="title">{{title}}</h1>
+    <div class="col-sm-3"> <!-- Login divs -->
+        {% block title %}
+        {% endblock %}
 
-              </tr>
-              {% endfor %}
-          </table>
-        </div>
-      </div>
-  {% else %}
-    <p class="lead">Solo personal autorizado.</p>
-  {% endif %}
+        {% block content %}
+        {% endblock %}
+    </div>
   </div>
+
 </main>
 <script src="{% static 'js/jquery-3.4.1.slim.min.js' %}" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="{% static "js/jquery.slim.min.js" %}"><\/script>')</script><script src="{% static 'js/bootstrap.bundle.min.js' %}" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script></body>

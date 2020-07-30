@@ -59,9 +59,12 @@
             <div class="col-sm-4">
                 <h1 class="title">{{title}}</h1>
                 <form method="post" action="">
-                          {% csrf_token %}
-                          {{form|crispy}}
-                          <input class="btn btn-lg btn-primary" type="submit" value="Save" />
+                    {% csrf_token %}
+                    {{form|crispy}}
+                    <input class="btn btn-lg btn-primary" type="submit" value="Save" />
+                    <ul class="navbar-nav">
+                        <li><a href="{% url 'delete' id=instance.id %}"<button class="btn btn-danger">Borrar</button></a></li>
+                    </ul>
                 </form>
         </div>
         <div class="col-sm-8 aligncenter">

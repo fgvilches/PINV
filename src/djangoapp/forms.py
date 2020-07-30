@@ -1,7 +1,6 @@
 from django import forms
 from .models import Producto
-
-
+from .models import Clasificaciones
 class ProductoForm(forms.ModelForm):
     class Meta:
         model = Producto
@@ -15,21 +14,21 @@ class ProductoForm(forms.ModelForm):
 
     def clean_Codigo_Propio(self):
         codigo = self.cleaned_data.get('Codigo_Propio')
-        if (codigo == ""):
+        '''if (codigo == ""):
             raise forms.ValidationError('Este campo no se puede dejar en blanco.\n Recuerda que puedes generarlo.')
         for instance in Producto.objects.all():
             if instance.Codigo_Propio == codigo:
-                raise forms.ValidationError('Ya existe un producto con el codigo ' + codigo)
+                raise forms.ValidationError('Ya existe un producto con el codigo ' + codigo)'''
         return codigo
 
 
     def clean_Codigo_de_barras(self):
         codigo = self.cleaned_data.get('Codigo_de_barras')
-        if (codigo == ""):
+        '''if (codigo == ""):
             raise forms.ValidationError('Este campo no se puede dejar en blanco.\n Recuerda que puedes generarlo.')
         for instance in Producto.objects.all():
             if instance.Codigo_de_barras == codigo:
-                raise forms.ValidationError('El producto codigo '+ codigo +' ya está registrado bajo el nombre ' + instance.Nombre)
+                raise forms.ValidationError('El producto codigo '+ codigo +' ya está registrado bajo el nombre ' + instance.Nombre)'''
         return codigo
 
 
@@ -37,4 +36,9 @@ class ProductoSearchForm(forms.ModelForm):
     class Meta:
         model = Producto
         #add ubicacion
-        fields = ['Nombre', 'Codigo_de_barras','Factura_asociada', 'exportar']
+        fields = ['Nombre', 'Codigo_de_barras','Factura_asociada','Codigo_Propio',  'exportar']
+
+class ClasificacionesForm(forms.ModelForm):
+  class Meta:
+   model =  Clasificaciones
+   fields = ['Clasificacion']

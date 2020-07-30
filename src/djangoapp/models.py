@@ -1,48 +1,42 @@
 from django.db import models
-from djangoapp.funciones import *
 from multiselectfield import MultiSelectField
 from datetime import datetime, date
 # Create your models here.
 
 #Se define clase clasificaciones para poder actualizarlas sin uso de archivos externos
 class Clasificaciones(models.Model):
-    Clasificacion = models.CharField(max_length = 30, blank=True)
+    Clasificacion = models.CharField(max_length = 50, blank=True)
 
     def __str__(self):
         return self.Clasificacion
 #Samee
 class Maquinarias(models.Model):
-    Maquinaria = models.CharField(max_length = 30, blank=True)
+    Maquinaria = models.CharField(max_length = 50, blank=True)
 
     def __str__(self):
         return self.Maquinaria
 #Samee
 class Ubicaciones(models.Model):
-    Ubicacion = models.CharField(max_length = 30, blank=True)
+    Ubicacion = models.CharField(max_length = 50, blank=True)
 
     def __str__(self):
         return self.Ubicacion
 #Samee
 class SubUbicaciones(models.Model):
-    SubUbicacion = models.CharField(max_length = 30, blank=True)
+    SubUbicacion = models.CharField(max_length = 50, blank=True)
 
     def __str__(self):
         return self.SubUbicacion
 
 #Se dfine clase producto para mejor estructura
 class Producto(models.Model):
-    Nombre = models.CharField(max_length=30, blank=True)
-    Codigo_Propio = models.CharField(max_length=30, blank=True)
-    Codigo_de_barras = models.CharField(max_length=30, blank=True)
-    Factura_asociada = models.CharField(max_length=30, blank=True)
+    Nombre = models.CharField(max_length=50, blank=True)
+    Codigo_Propio = models.CharField(max_length=50, blank=True)
+    Codigo_de_barras = models.CharField(max_length=50, blank=True)
+    Factura_asociada = models.CharField(max_length=50, blank=True)
     #Ciclo para extraer maquinarias actualizadas (se hizo de este modo para facilitar la seleccion)
-    newmaqs = []
-    for instance in Maquinarias.objects.all():
-        aux_line = [instance.__str__() , instance.__str__()]
-        aux_tuple = tuple(aux_line)
-        newmaqs.append(aux_tuple)
     Maquinaria = MultiSelectField(
-        choices = newmaqs,
+        choices = [(instance.id, str(instance)) for instance in Maquinarias.objects.all()],
         max_choices=100,
         max_length=100,
         blank=True,
